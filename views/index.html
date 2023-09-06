@@ -6,9 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+     <link rel="shortcut icon" href="img/logo.jpg" type="image/jpg">
+    <title>«4 КОЛЕСА» - интернет-магазин шин, дисков</title>
 </head>
 <body>
     <header>
@@ -25,67 +27,73 @@
 
         <div class="container">
             <div class="header_top">
-                <div class="logo_block">
-                    <div class="logo">
-                        <img src="img/logo.jpg" alt="">
+                <div class="header_top_main_block">
+                    <div class="logo_block">
+                        <div class="logo">
+                            <img src="img/logo.jpg" alt="">
+                        </div>
+                        <div class="logo_text">
+                            4 КОЛЕСА
+                            <span>ШИНЫ · ДИСКИ</span>
+                        </div>
                     </div>
-                    <div class="logo_text">
-                        4 КОЛЕСА
-                        <span>ШИНЫ · ДИСКИ</span>
+                    <div class="catalog_btn_block">
+                        <div class="strip_block">
+                            <div class="strip"></div>
+                            <div class="strip"></div>
+                            <div class="strip"></div>
+                        </div>
+                        <div class="catalog_btn_block_text">
+                            <strong>Каталог</strong>
+                        </div>
+                    </div>
+                    <div class="search_input_block">
+                        <input type="text" class="search_input" placeholder="Bridgestone">
+                        <div class="search_img">
+                            <img src="img/search_img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="header_top_btn_block">
+                    <div class="btns_block">
+                        <div class="btn_menu">
+                            <img src="img/enter.png" alt="">
+                            <span>Войти</span>
+                        </div>
+    
+                        <div class="btn_menu">
+                            <img src="img/orders.png" alt="">
+                            <span>Заказы</span>
+                        </div>
+                        <div class="btn_menu">
+                            <img src="img/heart.png" alt="">
+                            <span>Избранное</span>
+                        </div>
+                        <div class="btn_menu">
+                            <img src="img/basket.png" alt="">
+                            <span>Корзина</span>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="catalog_btn_block">
-                    <div class="strip_block">
-                        <div class="strip"></div>
-                        <div class="strip"></div>
-                        <div class="strip"></div>
-                    </div>
-                    <div class="catalog_btn_block_text">
-                        <strong>Каталог</strong>
-                    </div>
-                </div>
                 
-                <div class="search_input_block">
-                    <input type="text" class="search_input" placeholder="Bridgestone">
-                    <div class="search_img">
-                        <img src="img/search_img.png" alt="">
-                    </div>
-                </div>
-                <div class="btns_block">
-                    <div class="btn_menu">
-                        <img src="img/enter.png" alt="">
-                        <span>Войти</span>
-                    </div>
-                    <div class="btn_menu">
-                        <img src="img/del.png" alt="">
-                        <span>Заказы</span>
-                    </div>
-                    <div class="btn_menu">
-                        <img src="img/heart.png" alt="">
-                        <span>Избранное</span>
-                    </div>
-                    <div class="btn_menu">
-                        <img src="img/basket.png" alt="">
-                        <span>Корзина</span>
-                    </div>
-                </div>
             </div>
             <div class="header_bottom">
                 <nav>
                     <div class="nav_menu">
                         <div class="nav_menu_catalog">
-                            <a href="" class="nav_menu_catalog_item_ref"><img src="img/geolocation.png" alt="">Набережные Челны</a>
-                            <a href="" class="nav_menu_catalog_item_ref">Шины</a>
-                            <a href="" class="nav_menu_catalog_item_ref">Диски</a>
-                            <a href="" class="nav_menu_catalog_item_ref">Грузовые шины</a>
-                            <a href="" class="nav_menu_catalog_item_ref">Мото</a>
-                            <a href="" class="nav_menu_catalog_item_ref">АКБ</a>
-                            <a href="" class="nav_menu_catalog_item_ref">Масла</a>
-
+                            <div class="nav_menu_btn"><img src="img/geolocation.png" alt="">Набережные Челны</div>
+                            <div class="nav_menu_btn">
+                                Шины
+                            </div>
+                            <div class="nav_menu_btn">Диски</div>
+                            <div class="nav_menu_btn">Грузовые шины</div>
+                            <div class="nav_menu_btn">Мото</div>
+                            <div class="nav_menu_btn">АКБ</div>
+                            <div class="nav_menu_btn">Масла</div>
                         </div>
                         <div class="nav_menu_tel">
-                            +7-906-118-96-02 (с 08:00 до 20:00)
+                            +7-906-118-96-02 (с 8:00 до 20:00)
                             
                         </div>
                     </div>
@@ -98,7 +106,7 @@
     <div class="container">
         <div class="parameter_block_wrapper">
             <div class="background">
-                <img src="img/phone.jpg" alt="">
+                <img src="img/background.jpg" alt="">
             </div>
             <div class="parameter_block">
                 <div class="parameter_block_tabs">
@@ -281,65 +289,65 @@
     <div class="catalog_window hide">
         <div class="catalog_window_row">
             <div class="catalog_window_item">
-                <div class="catalog_window_item_title_img"><img src="img/car.png" alt=""></div>
-                <div class="catalog_window_item_title">Авто</div>
+                <!-- <div class="catalog_window_item_title_img"><img src="img/car.png" alt=""></div> -->
+                <div class="catalog_window_item_title"><a href="#">Авто</a></div>
                 <div class="catalog_window_item_refs">
-                    <div class="catalog_window_item_ref">Автомобильные шины</div>
-                    <div class="catalog_window_item_ref">Автомобильные диски</div>
-                    <div class="catalog_window_item_ref">Колеса в сборе</div>
-                    <div class="catalog_window_item_ref">Аксессуары для шин, дисков и шиномонтажа</div>
-                    <div class="catalog_window_item_ref">Аккумуляторы</div>
+                    <div class="catalog_window_item_ref"><a href="#">Автомобильные шины</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Автомобильные диски</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Колеса в сборе</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Аксессуары для шин, дисков и шиномонтажа</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Аккумуляторы</a></div>
 
                 </div>
             </div>
             <div class="catalog_window_item">
-                <div class="catalog_window_item_title_img"><img src="img/moto.png" alt=""></div>
-                <div class="catalog_window_item_title">Мото</div>
+                <!-- <div class="catalog_window_item_title_img"><img src="img/moto.png" alt=""></div> -->
+                <div class="catalog_window_item_title"><a href="#">Мото</a></div>
                 <div class="catalog_window_item_refs">
-                    <div class="catalog_window_item_ref">Мотошины</div>
-                    <div class="catalog_window_item_ref">Мотокамеры</div>
-                    <div class="catalog_window_item_ref">Мотоаккумуляторы</div>
-                    <div class="catalog_window_item_ref">Мотомасла</div>
-                    <div class="catalog_window_item_ref">Запчасти</div>
-                    <div class="catalog_window_item_ref">Мотохимия</div>
+                    <div class="catalog_window_item_ref"><a href="#">Мотошины</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Мотокамеры</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Мотоаккумуляторы</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Мотомасла</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Запчасти</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Мотохимия</a></div>
     
                 </div>
             </div>
             <div class="catalog_window_item">
-                <div class="catalog_window_item_title_img"><img src="img/quadbike.png" alt=""></div>
-                <div class="catalog_window_item_title">Квадро</div>
+                <!-- <div class="catalog_window_item_title_img"><img src="img/quadbike.png" alt=""></div> -->
+                <div class="catalog_window_item_title"><a href="#">Квадро</a></div>
                 <div class="catalog_window_item_refs">
-                    <div class="catalog_window_item_ref">Квадрошины</div>
-                    <div class="catalog_window_item_ref">Моторные масла</div>
+                    <div class="catalog_window_item_ref"><a href="#">Квадрошины</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Моторные масла</a></div>
                 </div>
             </div>
         </div>
         <div class="catalog_window_row">
             <div class="catalog_window_item">
                 <div class="catalog_window_item_title_img"></div>
-                <div class="catalog_window_item_title">Вело</div>
+                <div class="catalog_window_item_title"><a href="#">Вело</a></div>
                 <div class="catalog_window_item_refs">
-                    <div class="catalog_window_item_ref">Велопокрышки</div>
+                    <div class="catalog_window_item_ref"><a href="#">Велопокрышки</a></div>
                 </div>
             </div>
             <div class="catalog_window_item">
                 <div class="catalog_window_item_title_img"></div>
-                <div class="catalog_window_item_title">Грузовики</div>
+                <div class="catalog_window_item_title"><a href="#">Грузовики</a></div>
                 <div class="catalog_window_item_refs">
-                    <div class="catalog_window_item_ref">Грузовые шины</div>
-                    <div class="catalog_window_item_ref">Грузовые диски</div>
-                    <div class="catalog_window_item_ref">Грузовые аккумуляторы</div>
-                    <div class="catalog_window_item_ref">Грузовые масла</div>
-                    <div class="catalog_window_item_ref">Запчасти</div>
+                    <div class="catalog_window_item_ref"><a href="#">Грузовые шины</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Грузовые диски</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Грузовые аккумуляторы</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Грузовые масла</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Запчасти</a></div>
     
                 </div>
             </div>
             <div class="catalog_window_item">
                 <div class="catalog_window_item_title_img"></div>
-                <div class="catalog_window_item_title">Спецтехника</div>
+                <div class="catalog_window_item_title"><a href="#">Спецтехника</a></div>
                 <div class="catalog_window_item_refs">
-                    <div class="catalog_window_item_ref">Шины для с/x спецтехники</div>
-                    <div class="catalog_window_item_ref">Шины для индустриальной спецтехники</div>
+                    <div class="catalog_window_item_ref"><a href="#">Шины для с/x спецтехники</a></div>
+                    <div class="catalog_window_item_ref"><a href="#">Шины для индустриальной спецтехники</a></div>
                 </div>
             </div>
         </div>
@@ -378,7 +386,7 @@
                     <div class="footer_column_about">
                         <div class="footer_column_about_item"><a href="">О магазине</a></div>
                         <div class="footer_column_about_item"><a href="">Доставка</a></div>
-                        <div class="footer_column_about_item"><a href="">Оплата</a></div>
+                        <div class="footer_column_about_item"><a href="/payment">Оплата</a></div>
                         <div class="footer_column_about_item"><a href="">Отзывы</a></div>
                         <div class="footer_column_about_item"><a href="">Гарантия</a></div>
                     </div>
@@ -410,8 +418,30 @@
                                 +7-906-118-96-02                            
                             </div>
                         </div>
+                        <div class="footer_column_refs_item">
+                            <div class="footer_column_refs_item_name">
+                                Вконтакте:
+                            </div>
+                            <div class="footer_column_refs_item_ref">
+                                ----------                           
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="footer_column_img_refs"><img src="img/telegram.png" alt=""><img src="img/instagram.png" alt=""><img src="img/whatsapp.png" alt=""></div>
+                    <div class="footer_column_img_refs">
+                        <div class="footer_column_img_refs_item social_one">
+                            <img src="img/telegram.png" alt="">
+                        </div>
+                        <div class="footer_column_img_refs_item social_two">
+                            <img src="img/instagram.png" alt="">
+                        </div>
+                        <div class="footer_column_img_refs_item social_three">
+                            <img src="img/whatsapp.png" alt="">
+                        </div>
+                        <div class="footer_column_img_refs_item social_four">
+                            <img src="img/vk.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

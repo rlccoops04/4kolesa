@@ -86,9 +86,18 @@ selects.forEach(select => {
 const catalog_btn = document.querySelector('.catalog_btn_block');
 const catalog_window = document.querySelector('.catalog_window');
 const strip_block = document.querySelector('.strip_block');
+const strips = strip_block.childNodes;
 catalog_btn.addEventListener('click', () => {
     catalog_window.classList.toggle('hide');
-    strip_block.childNodes[5].classList.toggle('opened');
-    strip_block.childNodes[1].classList.toggle('opened1');
-    strip_block.childNodes[3].classList.toggle('hide');
+    strips[5].classList.toggle('opened');
+    strips[1].classList.toggle('opened1');
+    strips[3].classList.toggle('hide');
+});
+const nav_buttons = document.querySelectorAll('.nav_menu_catalog_item_ref');
+nav_buttons.forEach(btn => {
+    
+});
+const logo_block = document.querySelector('.logo_block');
+logo_block.addEventListener('click', () => {
+    window.location = '/';
 });
